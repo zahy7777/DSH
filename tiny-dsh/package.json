@@ -1,0 +1,15 @@
+{
+  "name": "tiny-dsh",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "c1": "tsx tmp/test/c1.ts",
+    "check": "tsc --noEmit",
+    "tmp:check": "tsc -p tmp"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

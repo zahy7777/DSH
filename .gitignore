@@ -1,0 +1,25 @@
+# Local experiments, credentials, and generated state
+.work/
+.DS_Store
+
+# Dependencies and build outputs
+**/node_modules/
+**/dist/
+**/lib/
+**/.cache/
+**/.pnpm-store/
+**/*.tsbuildinfo
+**/coverage/
+**/.coverage-times.json
+
+# Local editor settings
+**/.obsidian/
+**/.idea/
+**/.vscode/
+
+# Environment and credentials
+.env
+.env.*
+**/*.pem
+**/*.p12
+**/.credentials.yaml
